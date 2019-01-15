@@ -1,0 +1,27 @@
+body{
+    font-family: 'Antic';font-size: 22px;
+   
+   }
+   
+   div.jumbotron{
+     margin: auto 50px;
+     margin: 80px;
+   }
+   
+   h1{
+       font-family: tangerine;
+       font-size: 5em;
+       margin-bottom: 25px;
+   }
+   h5{
+     font-size: 20px;
+   }
+   
+   div{
+     text-align: center;
+   }
+   
+   q{
+     display : block; 
+     padding: 15px; 
+   } 
