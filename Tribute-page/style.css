@@ -1,27 +1,37 @@
+
 body{
-    font-family: 'Antic';font-size: 22px;
-   
-   }
-   
-   div.jumbotron{
-     margin: auto 50px;
-     margin: 80px;
-   }
-   
-   h1{
-       font-family: tangerine;
-       font-size: 5em;
-       margin-bottom: 25px;
-   }
-   h5{
-     font-size: 20px;
-   }
-   
-   div{
-     text-align: center;
-   }
-   
-   q{
-     display : block; 
-     padding: 15px; 
-   } 
+  font-family: 'Antic';font-size: 22px;
+  background-color: black;
+  color: whitesmoke;
+ 
+ }
+ 
+ #main{
+   margin: auto 50px;
+ }
+ 
+ h1{
+     font-family: tangerine;
+     font-size: 5em;
+     margin-bottom: 25px;
+ }
+ h5{
+   font-size: 1em;
+ }
+
+ 
+#title, #sub-title{
+  text-align: center;
+}
+
+
+#img-div{
+  padding: 2em;
+  text-align: center;
+}
+
+#image{
+  width: 100%;
+}
+
+@media 
