@@ -16,82 +16,86 @@
                 <h1 id="title">Survey Form</h1>
         </header>
         
+        <main>
+            <div id="form-div">
 
-        <div id="form-div">
-            <p id="description">Let us know how we can improve FreeCodeCamp</p>
+                <p id="description">Let us know how we can improve FreeCodeCamp</p>
 
-            <form action="form.php" id="survey-form">
-                <p>
-                    <label for="name" id="name-label">* Name: </label>
-                    <input type="text" id="name" placeholder="Enter your name" required />
-                </p>
-                <p>
-                    <label for="email" id="email-label">* Email: </label>
-                    <input type="email" id="email" placeholder="Enter your email" required />
-                </p>
-                <p>
-                    <label for="number" id="number-label">* Age: </label>
-                    <input type="number" placeholder="Age" id="number" required min="0" max="125" />
-                </p>
+                <form action="form.php" id="survey-form">
+                    
+                    <p>
+                        <label for="name" id="name-label">* Name: </label>
+                        <input type="text" id="name" placeholder="Enter your name" required />
+                    </p>
+                    <p>
+                        <label for="email" id="email-label">* Email: </label>
+                        <input type="email" id="email" placeholder="Enter your email" required />
+                    </p>
+                    <p>
+                        <label for="number" id="number-label">* Age: </label>
+                        <input type="number" placeholder="Age" id="number" required min="0" max="125" />
+                    </p>
 
-                <p>
-                    <label for="student">Which option best describes your current role?
-                    </label>
-                    <select id="dropdown">
-                        <option value="Select" disabled>Select an option</option>
-                        <option value="Student" selected>Student</option>
-                        <option value="Job">Full Time Job</option>
-                        <option value="learner">Full Time Learner</option>
-                        <option value="not-to-say">Prefer not to say</option>
-                        <option value="other">Other</option>id="dropdown"
-                    </select>
-                </p>
+                    <p>
+                        <label for="student">Which option best describes your current role?
+                        </label>
+                        <select id="dropdown">
+                            <option value="Select" disabled>Select an option</option>
+                            <option value="Student" selected>Student</option>
+                            <option value="Job">Full Time Job</option>
+                            <option value="learner">Full Time Learner</option>
+                            <option value="not-to-say">Prefer not to say</option>
+                            <option value="other">Other</option>id="dropdown"
+                        </select>
+                    </p>
 
-                <p>
-                    <label for="recommend">* How likely is that you would recommend freeCodeCamp to a
-                        friend?
-                    </label>
-                    <input type="radio" value="Definitely" id="recommend" name="recommend" required />Definitely
-                    <input type="radio" value="maybe" id="recommend" name="recommend" required />Definitely
-                    <input type="radio" value="notsure" id="recommend" name="recommend" required />Definitely
-                </p>
+                    <p>
+                        <label for="recommend">* How likely is that you would recommend freeCodeCamp to a
+                            friend?
+                        </label>
+                        <input type="radio" value="Definitely" id="recommend" name="recommend" required />Definitely
+                        <input type="radio" value="maybe" id="recommend" name="recommend" required />Definitely
+                        <input type="radio" value="notsure" id="recommend" name="recommend" required />Definitely
+                    </p>
 
-                <p>
-                    <label for="like-most">What do you like most in FCC:</label>
-                    <select id="dropdown">
-                        <option value="Select" disabled selected>Select an option</option>
-                        <option value="challenges">Challenges</option>
-                        <option value="projects">Projects</option>
-                        <option value="community">Community</option>
-                        <option value="open-source">Open Source</option>
-                        <option value="other">Other</option>
-                    </select>
-                </p>
+                    <p>
+                        <label for="like-most">What do you like most in FCC:</label>
+                        <select id="dropdown">
+                            <option value="Select" disabled selected>Select an option</option>
+                            <option value="challenges">Challenges</option>
+                            <option value="projects">Projects</option>
+                            <option value="community">Community</option>
+                            <option value="open-source">Open Source</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
 
-                <p>
-                    <label for="improved">Things that should be improved in the future (Check all that
-                        apply):</label>
-                    <input type="checkbox" value="Front-end-Projects" id="improved" />Front-end-Projects
-                    <input type="checkbox" value="Back-end-Projects" id="improved" />Back-end-Projects
-                    <input type="checkbox" value="Data-visualization" id="improved" />Data-visualization
-                    <input type="checkbox" value="Challenges" id="improved" />Challenges
-                    <input type="checkbox" value="Open-Source-Community" id="improved" />Open-Source-Community
-                    <input type="checkbox" value="Gitter help rooms" id="improved" />Gitter help rooms
-                    <input type="checkbox" value="Videos" id="improved" />Videos
-                    <input type="checkbox" value="City Meetups" id="improved" />City
-                    Meetups <input type="checkbox" value="Wiki" id="improved" />Wiki
-                    <input type="checkbox" value="Forum" id="improved" />Forum
-                    <input type="checkbox" value="Additional-Courses" id="improved" />Additional-Courses
-                </p>
+                    <p>
+                        <label for="improved">Things that should be improved in the future (Check all that
+                            apply):</label>
+                        <input type="checkbox" value="Front-end-Projects" id="improved" />Front-end-Projects
+                        <input type="checkbox" value="Back-end-Projects" id="improved" />Back-end-Projects
+                        <input type="checkbox" value="Data-visualization" id="improved" />Data-visualization
+                        <input type="checkbox" value="Challenges" id="improved" />Challenges
+                        <input type="checkbox" value="Open-Source-Community" id="improved" />Open-Source-Community
+                        <input type="checkbox" value="Gitter help rooms" id="improved" />Gitter help rooms
+                        <input type="checkbox" value="Videos" id="improved" />Videos
+                        <input type="checkbox" value="City Meetups" id="improved" />City
+                        Meetups <input type="checkbox" value="Wiki" id="improved" />Wiki
+                        <input type="checkbox" value="Forum" id="improved" />Forum
+                        <input type="checkbox" value="Additional-Courses" id="improved" />Additional-Courses
+                    </p>
 
-                <p>
-                    <label for="Comments">Any Comments or Suggestions?</label>
-                    <textarea rows="5" placeholder="Enter your comment here..."></textarea>
-                </p>
+                    <p>
+                        <label for="Comments">Any Comments or Suggestions?</label>
+                        <textarea rows="5" placeholder="Enter your comment here..."></textarea>
+                    </p>
 
-                <p><button value="Submit" id="submit">Submit</button></p>
-            </form>
-        </div>
+                    <p><button value="Submit" id="submit">Submit</button></p>
+                </form>
+            </div>
+
+        </main>
     </div>
 </body>
 
