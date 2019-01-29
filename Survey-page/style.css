@@ -8,8 +8,9 @@ body{
 }
 
 p, label, input{
-    margin: 10px;
-    display: inline;
-    
+    padding: 10px;
+    display: inline-block;
+    text-align: right;
+    width: 40%;
 
 }
