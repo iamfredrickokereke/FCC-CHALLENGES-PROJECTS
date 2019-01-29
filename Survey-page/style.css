@@ -1,0 +1,7 @@
+body{
+    margin: 0;
+    background: lightblue;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    text-align: center;
+    min-width: 320px;
+}
