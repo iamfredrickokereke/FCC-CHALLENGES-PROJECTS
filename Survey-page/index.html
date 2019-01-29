@@ -8,14 +8,14 @@
   </head>
   <body>
     <div id="container">
-      <h1>Survey Form</h1>
+      <h1 id="title">Survey Form</h1>
 
       <div id="form-div">
         <p id="description">Let us know how we can improve FreeCodeCamp</p>
 
         <form action="form.php" id="survey-form">
           <p>
-            <label for="name id="name-label"">* Name: </label>
+            <label for="name" id="name-label">* Name: </label>
             <input
               type="text"
               id="name"
@@ -56,7 +56,9 @@
               >* How likely is that you would recommend freeCodeCamp to a
               friend?
             </label>
-            <input type="radio" value="Definitely" id="recommend" name="recommend" required />
+            <input type="radio" value="Definitely" id="recommend" name="recommend" required />Definitely
+            <input type="radio" value="maybe" id="recommend" name="recommend" required />Definitely
+            <input type="radio" value="notsure" id="recommend" name="recommend" required />Definitely
           </p>
 
           <p>
