@@ -7,7 +7,7 @@ body{
     margin: 0px auto;
 }
 
-p, label, input{
+row1, row2, row3{
     padding: 10px;
     display: inline-block;
     text-align: right;
