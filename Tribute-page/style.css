@@ -1,8 +1,10 @@
-
+a{
+  color: white; 
+}
 body{
   font-family: 'Antic';font-size: 22px;
   background-color: rgba(0,0,0,0.8);
-  color: whitesmoke;
+  color: white;
   font-size: 0.9em;
  
  }
@@ -25,13 +27,6 @@ blockquote:before {
 }
 blockquote p {
   display: inline;
-}
-
-figure{
-  padding: 5em;
-  background: rgb(39, 38, 38);
-  margin:0;
-  
 }
 
 #footer{
@@ -68,6 +63,8 @@ img {
   height: auto;
   margin: 0 auto;
   display: block;
+  border: solid 1px white;
+  padding: 2px;
 }
 
 @media screen, print{
