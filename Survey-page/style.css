@@ -5,3 +5,10 @@ body{
     text-align: center;
     min-width: 320px;
 }
+
+p, label, input{
+    padding: 10px;
+    display: block;
+    min-width: 100px;
+
+}
