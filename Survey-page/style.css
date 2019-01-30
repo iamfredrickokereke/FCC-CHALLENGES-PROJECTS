@@ -3,18 +3,26 @@ body{
     background: lightblue;
     font-family: 'Raleway', Helvetica, sans-serif;
     text-align: center;
-    min-width: 320px;
+    
     margin: 0px auto;
 }
 
 row1, row2, row3{
     padding: 10px;
     display: inline-block;
-    text-align: right;
+    margin: 0 auto;
     width: 40%;
 }
 
 label{
     display: block;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+
+input{
+    display: block;
     text-align: right;
+    margin: 0 auto;
 }
