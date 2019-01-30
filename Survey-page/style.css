@@ -7,17 +7,13 @@ body{
     margin: 0px auto;
 }
 
-row1, row2, row3{
-    padding: 10px;
-    display: inline-block;
-    margin: 0 auto;
-    width: 40%;
-}
+
 
 label{
     display: block;
-    text-align: justify;
+    text-align: left;
     margin: 0 auto;
+    width: 40%;
 }
 
 
@@ -25,4 +21,5 @@ input{
     display: block;
     text-align: right;
     margin: 0 auto;
+    width: 40%;
 }
