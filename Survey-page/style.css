@@ -12,5 +12,9 @@ row1, row2, row3{
     display: inline-block;
     text-align: right;
     width: 40%;
+}
 
+label{
+    display: block;
+    text-align: right;
 }
