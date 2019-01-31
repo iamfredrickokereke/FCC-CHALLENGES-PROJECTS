@@ -8,15 +8,16 @@ body{
 
 
 label{
-    display: inline-block;    
+    display: flex; 
+    justify-content: left;   
     width: 40%;
     padding: 10px;
 }
 
 
 input{
-    display: inline-block;
-    text-align: left;
+    display: flex;
+    justify-content: left;    
     width: 40%;
     padding: 10px;
     margin-left: -170px
