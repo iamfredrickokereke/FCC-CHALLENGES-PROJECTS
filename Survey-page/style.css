@@ -27,3 +27,9 @@ input{
     justify-content: right;
 
 }
+
+#improved{
+    display: flex;
+    justify-content: right;
+
+}
