@@ -1,10 +1,10 @@
-How do I check if a value is in an array in C#?
+//How do I check if a value is in an array in C#?
 
-Like, I want to create an array with a list of printer names.
+//Like, I want to create an array with a list of printer names.
 
-These will be fed to a method, which will look at each string in turn, and if the string is the same as a value in an array, do that action.
+//These will be fed to a method, which will look at each string in turn, and if the string is the same as a value in an array, do that action.
 
-For example:
+//For example:
 
 string[] printer = {"jupiter", "neptune", "pangea", "mercury", "sonic"};
 foreach (p in printer)
