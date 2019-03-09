@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using System.Numerics;
 
-// You use a namespace to define globally unique objects
+// You use a namespace to define globally unique objects in csharp
 namespace CSharpTutA.cs
 {
     // A class defines the variables and methods used
