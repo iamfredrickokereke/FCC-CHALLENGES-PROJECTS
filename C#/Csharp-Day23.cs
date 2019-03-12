@@ -188,6 +188,8 @@ private void GenerateDoc()
             // Finally, mark the event as handled
             contextMenu.IsOpen = true;
             e.Handled = true;
+
+// yeah
         }
 
         void SaveRTBContent(Object sender, RoutedEventArgs args)
